@@ -6,4 +6,14 @@ require 'pry'
 
 class WordListTest < Minitest::Test
 
+
+  def test_map_letters_to_one
+    wordlist = WordList.new
+
+
+
+    assert_equal {"A", "E": 1}
+
+
+  end
 end
